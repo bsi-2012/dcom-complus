@@ -7,3 +7,4 @@ O DCOM recebe suporte originalmente no Windows NT 4.0, Windows 2000, Windows XP 
 * http://pt.wikipedia.org/wiki/DCOM
 * http://www.iis.net/configreference/system.webserver/asp/complus
 * http://c2.com/cgi/wiki?ComPlus
+* http://www.lncc.br/~borges/ist/SO2/trabalhos/DCOM.pdf
