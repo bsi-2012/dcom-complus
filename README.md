@@ -10,3 +10,4 @@ O DCOM recebe suporte originalmente no Windows NT 4.0, Windows 2000, Windows XP 
 * http://www.lncc.br/~borges/ist/SO2/trabalhos/DCOM.pdf
 * http://pt.wikipedia.org/wiki/Component_Object_Model
 * http://www.ic.unicamp.br/~beatriz/cursos/mo809/2006/slides/COM_DCOM.pdf
+* http://underpop.online.fr/b/banco-de-dados/banco-de-dados-distribuidos.pdf
