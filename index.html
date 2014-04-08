@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NHibernate</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=680, user-scalable=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/screen.css">
+</head>
+<body class="list">
+  <!--
+    Debug class on <body> enables
+    cyan grid on slides
+    -->
+  <header class="caption">
+    <h1>NHibernate</h1>
+    <p>Equipe: Alessandro, Carla, Graziele, Kather, Lucas</p>
+  </header>
+  <section class="slide"><div>
+    <img src="images/nhibernate-logo.png" alt="NHibernate">
+    <h2>Equipe</h2>
+    <p>Alessandro, Carla, Graziele, Kather, Lucas</p>
+  </div></section>
+  <section class="slide shout up"><div>
+    <h2>Agenda</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Agenda:</h2>
+    <ul>
+      <li class="next">Introdução e História</li>
+      <li class="next">Principais Funcionalidades</li>
+      <li class="next">Configurações, Anotações</li>
+      <li class="next">Dependências, compatibilidades, relacionamentos</li>
+      <li class="next">Funcionalidades de performance e melhores práticas</li>
+      <li class="next">Vantagens e desvantagens</li>
+    </ul>
+  </div></section>
+  <section class="slide shout right"><div>
+    <h2>Introdução</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Introdução</h2>
+    <ul>
+      <li class="next">Solução ORM para a plataforma .NET</li>
+      <li class="next">Estrutura para mapear um modelo OO para um BD Relacional</li>
+      <li class="next">Fork do Hibernate</li>
+      <li class="next">Open Source</li>
+      <li class="next">Distribuído sob a licença GNU</li>
+    </ul>
+  </div></section>
+  <section class="slide shout up"><div>
+    <h2>História</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>História</h2>
+    <ul>
+      <li class="next">O projeto teve inicio por Tom Barrett em meados de 2003</li>
+      <li class="next">No final de 2005, JBoss deixa de apoiar o projeto</li>
+      <li class="next">Com isso o projeto passou a ser 100% liderado pela comunidade</li>
+    </ul>
+  </div></section>
+  <section class="slide shout right"><div>
+    <h2>Principais Funcionalidades</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Principais Funcionalidades</h2>
+    <ul>
+      <li class="next">Transformar POCO em dados relacionais</li>
+      <li class="next">Baixo acoplamento</li>
+      <li class="next">Suporte para vários SGBD's</li>
+    </ul>
+  </div></section>
+  <section class="slide shout up"><div>
+    <h2>Configurações e dependências</h2>
+  </div></section>
+  <section class="slide"><div>
+     <h2>Configurações e dependências</h2>
+      <p>Configurações no exemplo.</p>
+      <p class="next">Dependências:</p>
+      <ul>
+        <li class="next">.NET 3.5 ou superior</li>
+        <li class="next">Iesi.Collections (≥ 3.2 && < 4.0)</li>
+      </ul>
+  </div></section>
+  <section class="slide shout right"><div>
+    <h2>Compatibilidades</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Compatibilidades</h2>
+    <p class="next">Compatibilidade com os principais SGBD's</p>
+    <ul>
+      <li class="next">SQL Server</li>
+      <li class="next">Oracle</li>
+      <li class="next">PostgreSQL</li>
+      <li class="next">MySQL</li>
+      <li class="next">SQLite</li>
+    </ul>
+  </div></section>
+  <section class="slide shout up"><div>
+    <h2>Anotações</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Anotações</h2>
+    <ul>
+      <li class="next">Desenvolvido inicialmente por John Morris</li>
+      <li class="next">XML desnecessário</li>
+      <li class="next">NHibernate Attributes</li>
+    </ul>
+  </div></section>
+  <section class="slide shout right"><div>
+    <h2>Relacionamentos</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Relacionamentos</h2>
+    <ul>
+      <li class="next">Muitos-Para-Um (Many to one)</li>
+      <li class="next">Um-Para-Muitos (One to many)</li>
+      <li class="next">Muitos-Para-Muitos (Many to many)</li>
+      <li class="next">Cascade (none, save-update, delete, all, delete-orphan, all-delete-orphan, all-delete-cascade)</li>
+    </ul>
+  </div></section>
+  <section class="slide shout up"><div>
+    <h2>Funcionalidades de performance</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Funcionalidades de performance</h2>
+    <ul>
+      <li class="next">NHProf</li>
+      <li class="next">Lazy Loading</li>
+    </ul>
+  </div></section>
+  <section class="slide shout right"><div>
+    <h2>Melhores práticas</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Melhores práticas</h2>
+    <ul>
+      <li class="next">Fechar as sessões que não estão sendo utilizadas</li>
+      <li class="next">Iniciar uma sessão por vez</li>
+      <li class="next">Dependendo do projeto, externalizar as classes de conexão</li>
+      <li class="next">Usar uma ferramenta para geração de XML</li>
+    </ul>
+  </div></section>
+  <section class="slide shout up"><div>
+    <h2>Vantagens</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Vantagens</h2>
+    <ul>
+      <li class="next">Produtividade</li>
+      <li class="next">Baixo acoplamento</li>
+      <li class="next">Facilita a manutenção do código</li>
+      <li class="next">Evita injeções de SQL</li>
+      <li class="next">Muito utilizado, facilitando o suporte caso assim necessário for</li>
+      <li class="next">Cache 2nd level</li>
+    </ul>
+  </div></section>
+  <section class="slide shout right"><div>
+    <h2>Desvantagens</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Desvantagens</h2>
+    <ul>
+      <li class="next">Não é nativo</li>
+      <li class="next">Depende de XML para configuração</li>
+      <li class="next">Dependendo do projeto, sua performance não justifica a sua utilização</li>
+    </ul>
+  </div></section>
+  <section class="slide shout up"><div>
+    <h2>Conclusão</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Conclusão</h2>
+    <p class="next">Seguindo o sucesso do Hibernate, o fork NHibernate para o .NET é considerado uma das melhores soluções para a plataforma .NET/C#. Atualmente, com sua comunidade de desenvolvimento reduzida e a concorrência do Entity Framework (agora também open source), o futuro do NHibernate é incerto. Apesar disso, ainda é uma solução de respeito, e que deve ser levada em consideração na hora da escolha de um framework ORM para a plataforma .NET/C#.</p>
+    <p class="next"></p>
+  </div></section>
+
+  <section class="slide shout right"><div>
+    <h2>Referências</h2>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Referências</h2>
+    <ul>
+      <li class="next">Revista .NET Magazine 86</li>
+      <li class="next">Revista .NET Magazine 102</li>
+      <li class="next">Revista .NET Magazine 103</li>
+      <li class="next">http://nhforge.org/</li>
+      <li class="next">http://fluentnhibernate.org/</li>
+    </ul>
+  </div></section>
+
+  <div class="progress"><div></div></div>
+  <script src="js/shower-ck.js"></script>
+  <!-- Copyright © 2013 Yours Truly, Famous Inc. -->
+</body>
+</html>
