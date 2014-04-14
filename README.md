@@ -13,3 +13,4 @@ O DCOM recebe suporte originalmente no Windows NT 4.0, Windows 2000, Windows XP 
 * http://underpop.online.fr/b/banco-de-dados/banco-de-dados-distribuidos.pdf
 * http://pt.wikipedia.org/wiki/DDE
 * http://stackoverflow.com/questions/455687/what-is-com-component-object-model-in-a-nutshell
+* http://www.softwaretoolbox.com/dcom/html/best_practices.html
