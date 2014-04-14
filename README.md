@@ -17,3 +17,4 @@ O DCOM recebe suporte originalmente no Windows NT 4.0, Windows 2000, Windows XP 
 * http://www.samba.org/~jelmer/dcom.pdf
 * http://www.cs.umd.edu/~pugh/com/
 * http://www.cs.utah.edu/flux/oskit/html/oskit-wwwch4.html
+* http://security.stackexchange.com/questions/15606/how-does-dcom-authentication-compare-to-rpc-based-authentication-auth
