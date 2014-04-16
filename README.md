@@ -21,3 +21,4 @@ O DCOM recebe suporte originalmente no Windows NT 4.0, Windows 2000, Windows XP 
 * http://code.msdn.microsoft.com/windowsdesktop/Creating-a-COM-Component-7ffbab9b
 * http://www.informit.com/articles/article.aspx?p=170910&seqNum=2
 * http://slideplayer.com.br/slide/355172/
+* http://msdn.microsoft.com/en-us/library/windows/desktop/ms690150(v=vs.85).aspx
